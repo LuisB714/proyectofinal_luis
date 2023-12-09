@@ -1,0 +1,290 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*cuadros de la barra de informacion de arriba*/
+
+.nombre_inicio {
+    margin-top: -10px;
+    margin-left: 170px;
+
+}
+
+.inicio {
+    margin-top: 3px;
+    margin-left: 170px;
+
+}
+
+.img-2 {
+    height: 133px;
+    width: 160px;
+}
+
+.img-2 {
+    margin-top: -137px;
+    margin-left: 20px;
+}
+
+.hover-effect:hover {
+	background-color: #eee;
+	color: #333;
+  }
+  
+  header {
+	background-color: #646464;
+	color: #ffffff;
+	padding: 30px;
+}
+
+a {
+	transition: 0.5s;
+}
+
+a:hover{
+    color: rgb(58, 58, 58);
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+		
+nav li {
+	margin-right: 20px;
+	font-family: 'Shantell Sans', cursive;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: regular;
+}
+		
+nav a {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+/*nombre principal*/
+
+h1 {
+	margin: 0;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 32px;
+	font-weight: 500;
+	font-style: regular;
+}
+
+
+
+.contact {
+    padding: 25px;
+    background: #171717;
+    padding-bottom: 0;
+}
+
+@media (max-width:768px) {
+    .title {
+        margin-bottom: 0;
+        font-size: 35px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
+
+/*senalador*/
+
+.caja_s {
+    margin-top: 10px;
+    margin-left: 50px;
+    width: 1250px;
+    height: 100px;
+    background-color: #646464;
+    /*position: absolute;*/
+    bottom: 0px;
+    left: 24px;
+    border-radius: 5%;
+    
+}
+
+.titulooo {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.textooo {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+
+.caja {
+    margin-top: 60px;
+    margin-left: 200px;
+    width: 400px;
+    height: 500px;
+    background-color: #646464;
+    /*position: absolute;*/
+    bottom: 0px;
+    left: 24px;
+    border-radius: 5%;
+    
+}
+
+.TV1 {
+    /*background-image: url(../img/TELEVISOR\ LED\ SAMSUNG\ 55\ UHD\ 4K\ SMART\ BLUETOOTH\ HD.png);*/
+    width: 300px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.titulo1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+.texto1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ffffff;
+}
+
+/*formulario de compra*/
+
+.formulario {
+    font-family: Arial, sans-serif;
+    /*background-color: #f4f4f4;*/
+    width: 900px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: -490px;
+    margin-left: 500px;
+  }
+
+  form {
+    background-color: #646464;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input,
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+
+
+/*redes sociales*/
+
+.barra-info {
+    margin-left: 0px;
+    margin-top: 100px;
+	width: 100%;
+	background-color: #646464;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px 0;
+  }
+  
+  .redes-sociales {
+	margin-top: 10px;
+  }
+  
+  .redes-sociales a {
+	display: inline-block;
+	margin: 0 10px;
+  }
+  
+  .redes-sociales img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+  }
+
+  /*estilo tigografia barra info de abajo*/
+
+  .barra-info {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+
+  .Dynoro {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+
+  /*.buscar2 {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-left: 1200px;
+    margin-top: -50px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 50px;
+    height: 30px;
+}
+
+.buscar {
+    text-align: center;
+    margin-left: 1000px;
+    margin-top: -550px;
+}
+
+input {
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+}*/
